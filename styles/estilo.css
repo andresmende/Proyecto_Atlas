@@ -1,0 +1,1150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* seccion 1 */
+
+.principal{
+     height: 97vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/banner-bk.jpg);
+
+}
+
+.principal2{
+    /* display: flex; */
+    float: left;
+    align-items: center;
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    margin-left: 116px;
+    padding-top: 95px;
+}
+
+.logo{
+    width: 100px;
+    cursor: wait;
+}
+
+h1{
+    font-size: 90px;
+    font-weight: 800;
+    color: white;
+}
+
+.texto1{
+    color: white;font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.principal3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 95px;
+    padding-left: 150px;
+   
+ 
+}
+
+.texto2{
+    color: white;
+    font-size: 34px;
+    font-weight: 100;
+}
+
+.botonPrincipal{
+    width: 122px;
+    height: 45px;
+    border-radius: 24px;
+    background-color:#00ffad ;
+    font-weight: 800;
+
+}
+
+/* segunda parte */
+
+.segundo{
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.segundo2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.imagen2{
+    width: 200px;
+    margin-left: 24px;
+}
+
+h3{
+ margin-left: 60px;
+ font-size: 27px;
+}
+
+.texto3{
+    font-size: 20px; 
+    text-align: center;
+}
+
+.imagen3{
+    width: 500px;
+}
+
+/* segunda parte 1.1 */
+
+.caja2{
+    margin-left: 143px;
+}
+
+
+.caja{
+    display: flex;
+    float: left;
+    gap: 70px; 
+    margin-top: 120px;
+    
+}
+
+
+h4{
+
+    font-size: 50px;
+}
+
+.texto4{
+
+    font-size: 21px;
+    margin-top: 25px;
+}
+
+.botonDos{
+    width: 150px;
+    height: 45px;
+    border-radius: 24px;
+    background-color: #192440 ;
+    font-weight: 800;
+    color: white;
+    margin-top: 25px;
+}
+
+/* segunda parte 1.2 */
+
+.segundaP{
+    background: linear-gradient(165deg, white 50%, #00ffad 0%);
+    padding-bottom: 23%;
+}
+
+.imagen4 {
+    display: flex;
+    float: left;
+    margin-left: 6%; 
+    margin-top: 12%;
+   
+}
+
+
+.caja4{
+    margin-top: 40%;
+}
+
+.caja3{
+     display: flex;
+    float: right;
+    gap: 70px; 
+    
+}
+
+
+
+.texto5{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.botonTres{
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    background-color:#192440 ;
+    color: white;
+    border-radius: 24px;
+    font-weight: 800;
+    margin-top: 15px;
+}
+
+/* tercera parte */
+
+.subT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+    font-size: 56px;
+}
+
+#subCajas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 70px;
+
+}
+
+.subC{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:white ;
+    width: 300px;
+    border-radius: 5px;
+}
+
+
+.subC2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #192440;
+    width: 300px;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.pro{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+   
+    margin-top: 10px;
+}
+
+
+.lista{
+    font-size: 18px;
+    list-style-type: none;
+
+    margin-bottom: 30px; 
+
+}
+
+.precio{
+    margin-bottom: 30px;
+     
+    font-size: 17px;
+
+}
+
+
+.botonFinal{
+   
+    width: 110px;
+    height: 40px;
+    /* margin-left: 61px; */
+    margin-bottom: 15px;
+    border-radius: 25px;
+    background-color: transparent;
+}
+
+.botonFinal2{
+    width: 110px;
+    height: 40px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    background-color: #00ffad;
+}
+
+.numero{
+    font-size: 80px;
+}
+
+#penultimaSec{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #eceeef;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.imagenP{
+width: 135px;
+cursor: not-allowed;
+}
+
+/* cuarta parte */
+
+.cuarto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(../assets/contact-bk.jpg);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .contacto{
+    flex-direction: column;
+    float: left; 
+}  */
+
+h5{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.contacto p{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+}
+.datos{
+    display: flex;
+    float: left;
+    gap: 10px;
+}
+
+label{
+    color: #00ffad;
+   
+}
+
+input{
+    color: #00ffad;
+    background-color: transparent;
+    border: 1px solid #00ffad ;
+    padding: 8px 60px;
+    margin-bottom: 22px;
+    border-radius: 5px;
+}
+
+
+
+.datos2{
+    display: flex;
+    flex-direction: column;
+}
+
+.datos3{
+    display: flex;
+    flex-direction: column;
+}
+
+ textarea{
+   background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border: 1px solid #00ffad ;
+    border-radius: 5px;
+}
+
+.datos5{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* .botonFinal3{
+    margin-top: 20px;
+    background-color: #00ffad;
+    border-radius: 10px;
+    color: black;
+   
+} */
+
+.datos4 input{
+    color: black;
+    background-color: #00ffad;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 38px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#192440;
+}
+
+
+#derechos{
+    font-size: 20px;
+    color: white;
+}
+.imagenEnlace{
+    width: 65px;
+    margin-bottom: 20px;
+}
+
+.imagenEnlace2{
+    width: 110px;
+}
+
+/* pagos */
+
+#imagen{
+    height: 97vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/pagos.jpg);
+
+}
+
+#pagos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+#banco{
+    border: 1px solid #000000 ;
+    font-size: 15px;
+    width: 98%;
+    
+}
+
+#cuenta1{
+    color:black;
+    border: 1px solid #000000 ;
+    font-size: 15px;
+    width: 98%;
+    
+}
+
+#datos{
+    display: flex;
+    float: left;
+    gap: 10px;
+}
+
+#datos3{
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+    color: black;
+}
+
+#datos3 label{
+    color: #eceeef;
+}
+
+#datos3 input{
+    background-color: white;
+    color: black;
+    border: 1px solid #000000 ;
+}
+
+#datos2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+   
+}
+
+#datos2 label{
+    color: #f3f2f2;
+    
+    
+}
+#datos2 input{
+    background-color: white;
+    color: black;
+    border: 1px solid #000000 ;
+    
+}
+
+#datos4 input{
+    color: white;
+    background-color:#010101;
+    width: 99%;
+    cursor: pointer;
+    margin-top: 38px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid #000000 ;
+    
+}
+
+#datos4 label{
+    color: #eceeef;
+    
+}
+
+#datos4 textarea{
+    border: 1px solid #000000 ;
+    background-color: #eceeef;
+    color: black;
+}
+
+/* boton1 */
+
+#ultimoB1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#010101;
+    border-radius: 12px;
+    margin-top: 36px;
+}
+
+#btn1{
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    font-size:20px ;
+    padding: 7px;
+  
+}
+
+/* boton2 */
+
+#ultimoB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#010101;
+    border-radius: 12px;
+    margin-top: 36px;
+}
+
+#btn {
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    font-size:20px ;
+    padding: 7px;
+  
+}
+
+/* comprovante de pago */
+
+#gra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cias{
+    font-size: 30px;
+    padding-top: 5%;
+}
+
+#comprovante{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../assets/fondo_comprovante.jpg);
+}
+
+#dpb{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2%;
+}
+
+#desprendible{
+   width: 450px;
+}
+
+
+#bot{
+    
+    border-radius: 15px;
+    background-color: #eceeef;
+    width: 29.3%;
+    margin-top: 1%;
+
+}
+
+#bot2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000000;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+/* responsi pagina principal */
+
+@media (max-width:1279px) {
+
+.principal2{
+    display: flex;
+    float: left;
+    flex-direction: column;
+    }
+
+    .principal3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 95px;
+    margin-right: 10%;
+}
+
+.imagen3{
+    padding-right: 5%;
+}
+    
+.imagen4{
+    margin-left: 0px;
+    margin-top: 12%;
+    float: inline-start;
+}
+
+.texto4{
+    font-size: 20px;
+    margin-right: 2%;
+}
+
+#caja5{
+    float: left;
+}
+.caja3{
+    display: flex;
+    float: none;
+}
+
+.caja4{
+    margin-top: 70%;
+}
+.texto5{
+    margin-right: 2%;
+}
+
+#penultimaSec{
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.imagenP{
+    width: 118px;
+}
+
+h5{
+    padding-left: 7%;
+}
+.contacto p{
+    margin-left: 8%;
+}
+label{
+    margin-left: 7%;
+}
+input{
+    padding: 9px 34px;
+    margin-bottom: 20px;
+    margin-left: 5%;
+}
+
+textarea{
+    width: 88%;
+    margin-left: 3%;
+}
+.datos4 input{
+    width: 88%;
+}
+
+/* parte de pago */
+#datos4 label {
+    margin-left: 20%;
+
+}
+#datos input{
+    padding: 9px 62px;
+    margin-bottom: 18px;
+    margin-left: 0%;
+}
+
+#datos4 textarea{
+        
+        width: 99%;
+        margin-left: 0%;
+    
+}
+
+
+}
+
+
+@media (max-width:920px){
+    /* parte 1  */
+
+h1{
+    font-size: 63px;
+}
+.texto1{
+    font-size: 15px;
+    margin-right: 6%;
+}
+.principal3{
+    padding-top: 10%;
+    margin-right: 17%;
+}
+
+/* parte 2  */
+
+.segundo{
+    font-size: 29px;
+}
+.segundo2{
+    margin-right: 2%;
+}
+.imagen2 {
+    width: 190px;
+    margin-left: 35px;
+}
+h3{
+    margin-left: 53px;
+    font-size: 28px;
+}
+.texto3 {
+    font-size: 16px;
+}
+
+/* parte 3  */
+.caja{
+    gap: 20px;
+}
+.caja2 {
+    margin-left: 74px;
+}
+
+h4 {
+    font-size: 44px;
+}
+.texto4 {
+    font-size: 19px;
+    margin-right: 0%; 
+}
+.imagen3 {
+    width: 350px;
+    padding-right: 10%; 
+}
+
+/* parte 3.1 */
+
+.imagen4{
+    width: 350px;
+    margin-top: 20%;
+    margin-left: 4%;
+}
+.texto5{
+    padding-right: 11%;
+}
+
+/* parte 4  */
+
+#subCajas{
+    margin-right: 3%;
+    gap: 20px;
+}
+
+/* parte 5  */
+.imagenP {
+    width: 100px;
+}
+
+/* parte 6  */
+
+.contacto p{
+    font-size: 18px;
+}
+
+input {
+    padding: 9px 26px;
+    margin-bottom: 20px;
+    margin-left: 3%;
+}
+
+ .datos2{
+    width: 40%;
+    margin-left: 2%;
+}
+.datos3{
+    width: 40%;
+    
+}
+textarea {
+    width: 80%;
+    margin-left: 3%;
+}
+.datos4 input {
+    width: 80%;
+}
+
+/* parte de pago */
+#banco {
+    font-size: 15px;
+    width: 73%;
+    margin-left: 12%;
+}
+#cuenta1{
+    font-size: 15px;
+    width: 73%;
+    margin-left: 12%;
+}
+#datos input {
+    padding: 9px 39px;
+    margin-bottom: 18px;
+    margin-left: 38%;
+}
+#datos2 label {
+    margin-left: 40%;
+}
+#datos3 label{
+        margin-left: 41%;
+}
+#datos4 textarea {
+    width: 75%;
+    margin-left: 12%;
+}
+#ultimoB1{
+    width: 76%;
+    margin-left: 12%;
+}
+#ultimoB{
+    width: 76%;
+    margin-left: 12%;
+}
+
+}
+
+@media (max-width:768px){
+    /* parte 1 */
+.principal2 {
+    margin-right: 16%; 
+}
+
+h1 {
+    font-size: 37px;
+     
+}
+.texto1 {
+    font-size: 21px;
+        
+}
+.principal3 {
+    padding-top: 13%;
+    margin-right: 20%;
+}
+.texto2{
+    font-size: 30px;
+}
+
+    /* parte 2  */
+
+.segundo {
+    font-size: 18px;
+}
+.segundo2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px; 
+     padding-bottom: 0px;
+    flex-direction: column;
+}
+
+/* parte 3 */
+
+.segundaP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(153deg, white 66%, #00ffad 0%);
+    padding-bottom: 13%;
+}
+.caja {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.texto4 {
+    font-size: 23px;
+    width: 99%;
+}
+.botonDos{
+    margin-left: 24%;
+}
+
+/* parte 3.1 */
+.caja4 {
+    display: contents;
+}
+
+.texto5 {
+    padding-right: 0px;
+    font-size: 23px;
+    width: 67%;
+}
+
+/* parte 4 */
+
+    #subCajas {
+        display: flex
+;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 0px; 
+        gap: 30px;
+    }
+
+    /* parte 6  */
+
+#penultimaSec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #eceeef;
+    gap: 5px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+.imagenP {
+    width: 162px;
+}
+
+/* parte 7  */
+.cuarto{
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+/* parte 7.1 */
+.datos{
+    margin-left: 5%;
+    margin-top: 4%;
+}
+label {
+    margin-left: 14%;
+}
+input {
+    padding: 8px 32px;
+    margin-bottom: 13px;
+    margin-left: 7%;
+}
+textarea {
+    width: 77%;
+    margin-left: 10%;
+}
+.datos4 input {
+        width: 78%;
+        margin-left: 10%;
+}
+
+/* parte final */
+
+.imagenEnlace {
+    width: 43px;
+    margin-bottom: 19px;
+}
+.imagenEnlace2 {
+    width: 82px;
+}
+#derechos{
+    font-size: 15px;
+}
+
+/* parte de pagos */
+
+#pagos{
+    padding-top: 31%;
+}
+#datos input {
+    padding: 6px 0px;
+    margin-left: 35%;
+}
+#datos3 label {
+    margin-left: 39%;
+    font-size: 11px;
+}
+#datos2{
+    margin-right: 0px;
+}
+#datos2 label {
+    margin-left: 36%;
+    font-size: 12px;
+}
+
+/* comprobante */
+#desprendible {
+    width: 320px;
+}
+#cias {
+    font-size: 27px;
+    padding-top: 31%;
+}
+}
+
+@media (max-width:480px){
+
+    /* parte 1 */
+h1 {
+    font-size: 26px;
+}
+.texto1 {
+    font-size: 18px;
+}
+.botonPrincipal{
+    margin-right: 27%;
+}
+.principal3{
+    padding-left: 109px;
+}
+
+    /* parte 2 */
+.segundo{
+    font-size: 15px;
+}    
+.texto4 {
+    font-size: 15px;
+    width: 94%;
+}    
+
+.imagen3 {
+    width: 246px;
+    padding-right: 0%;
+}
+.botonDos {
+    margin-left: 10%;
+}
+
+    /* parte 3 */
+.imagen4 {
+    width: 274px;
+    margin-top: 16%;
+    margin-left: 4%;
+}
+h4{
+    font-size: 31px;
+}
+.texto5 {
+    font-size: 15px;
+    width: 61%;
+}
+
+
+    /* parte 4 */
+
+.subT{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 47px;
+}
+
+.subC2{
+        width: 215px;
+}
+    /* parte 6 */
+#penultimaSec{
+    padding-bottom: 36px;
+    padding-top: 36px;
+}
+.imagenP {
+    width: 92px;
+}
+
+    /* parte 7  */
+h5 {
+    padding-left: 19%;
+    font-size: 38px;
+}
+.contacto p {
+    font-size: 12px;
+    margin-left: 19%;
+}
+ /*  parte 7.1 */
+
+.dator{
+    margin-left: 0px;
+}
+
+input{
+    padding: 13px 0px;
+}
+/* parte final  */
+.imagenEnlace{
+    width: 34px;
+    margin-bottom: 12px;
+}
+.imagenEnlace2 {
+    width: 63px;
+}
+
+#derechos {
+    font-size: 11px;
+}
+
+/* parte de pagos */
+#datos{
+ flex-direction: column;
+}
+#datos2 {
+    margin-right: 17px;
+}
+#datos input {
+    padding: 6px 68px;
+    margin-left: 14%;
+}
+
+#datos3 label {
+    margin-left: 17%;
+    font-size: 13px;
+}
+
+#datos2 label {
+    margin-left: 16%;
+    font-size: 16px;
+}
+#datos4 label {
+    margin-left: 15%;
+}
+
+/* comprobante */
+
+#desprendible
+{
+    width: 254px;
+}
+#cias{
+    font-size: 23px;
+    padding-top: 62%;
+}
+    
+}
