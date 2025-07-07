@@ -300,10 +300,7 @@ cursor: not-allowed;
     background-repeat: no-repeat;
 }
 
-/* .contacto{
-    flex-direction: column;
-    float: left; 
-}  */
+
 
 h5{
     font-size: 45px;
@@ -363,13 +360,7 @@ input{
     
 }
 
-/* .botonFinal3{
-    margin-top: 20px;
-    background-color: #00ffad;
-    border-radius: 10px;
-    color: black;
-   
-} */
+
 
 .datos4 input{
     color: black;
@@ -405,6 +396,7 @@ footer{
 }
 
 /* pagos */
+
 
 #imagen{
     height: 97vh;
@@ -1112,6 +1104,10 @@ input{
 }
 
 /* parte de pagos */
+
+#imagen {
+    height: 100vh;
+}
 #datos{
  flex-direction: column;
 }
